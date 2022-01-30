@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2A7FF">
+
+        <TextView
+            android:id="@+id/minuciuSkirtumoText"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Minučių skirtumo tekstas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/tekstoSimboliuText"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Šioks toks tekstas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/justText"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Šeštas laboratorinis by Ricardas Lukasevicius"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/letterOutput"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

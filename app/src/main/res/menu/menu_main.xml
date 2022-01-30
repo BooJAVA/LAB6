@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ld6.MainActivity">
+
+    <item
+        android:id="@+id/skirtumas"
+        android:orderInCategory="50"
+        android:title="Nustatyti Skirtumą"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/baigti"
+        android:orderInCategory="100"
+        android:title="Baigti darbą"
+        app:showAsAction="never" />
+</menu>
